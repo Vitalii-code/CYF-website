@@ -1,0 +1,46 @@
+:root {
+  --important-text-color: #fab95b;
+}
+
+body {
+  font-family: system-ui;
+  background: #1a3263;
+  color: #e8e2db;
+  text-align: center;
+}
+
+p,
+div.list,
+h4 {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ol,
+ul {
+  display: table;
+  text-align: left;
+
+  margin-top: 0;
+}
+
+h1 {
+  color: var(--important-text-color);
+}
+
+a:link,
+a:visited {
+  color: var(--important-text-color);
+  text-decoration: none;
+}
+
+a:link:hover,
+a:visited:hover {
+  text-decoration: underline;
+}
+
+#examples-image {
+  border: 5px solid var(--important-text-color);
+}
